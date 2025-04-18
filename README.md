@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🚗 Auto Listing - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive and interactive automobile listing application built with React, Redux, and Material UI. Users can browse, filter, and wishlist cars, as well as manage their profile.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 🛒 Add to Wishlist – Save cars for later
+- 🔍 Filter Cars – Filter by price and mileage (km/l)
+- 🧭 Responsive Navigation – Includes AppBar, Drawer navigation
+- 📱 Mobile-friendly UI – Fully responsive using MUI
+- 👤 User Profile – View and edit basic user details
+- 📦 Redux State Management – Wishlist, filtering, and user data handled through Redux
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Folder Structure
 
-### `npm test`
+src/
+├── components/
+│   ├── CarList.js
+│   ├── FilterBar.js
+│   ├── Navigation.js
+│   └── Wishlist.js
+├── pages/
+│   ├── Dashboard.js
+│   └── UserProfile.js
+├── redux/
+│   ├── slices/
+│   │   ├── carsSlice.js
+│   │   ├── userSlice.js
+│   │   └── wishlistSlice.js
+│   └── store.js
+├── data/
+│   └── cars.js
+└── App.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧪 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React – Frontend library
+- Redux Toolkit – State management
+- React Router DOM – Client-side routing
+- Material UI (MUI) – UI Components and styling
+- JavaScript (ES6)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+### 1. Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/your-username/auto-listing-app.git
+cd auto-listing-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Start the development server
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visit: http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome!  
+Feel free to open issues or submit pull requests to improve the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📬 Contact
 
-### Deployment
+For any queries or suggestions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: https://github.com/PratikshaTHECoder
+- Email: pratikshabhadane15@gmail.con
